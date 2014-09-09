@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Forge of empires - Calculateur de population</title>
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<h1>Forge of empires - Calculateur de population</h1>
+<h2>Calculateur des constructions nécessaires pour atteindre une population cible à partir de votre population actuelle.</h2>
+<p>
+	Si votre population actuelle est trop élevée et qu'aucune solution n'est trouvée,
+	détruisez une à une vos maisons et re-testez avec vos nouvelles valeurs de population actuelle.
+	(si vous ne voulez pas tout casser pour rien, vous pouvez aussi déduire la population des maisons que vous êtes susceptible de détruire pour atteindre la population cible)
+</p>
+<input id="actual" type="number" placeholder="Votre population actuelle"/><br/>
+<input id="target" type="number" placeholder="Votre population cible"/><br/>
+<input id="send" type="submit" value="Calculer" onclick="solve()"/><br/><br/>
+<div id="result"></div>
+</body>
+</html>
